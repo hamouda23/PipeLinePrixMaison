@@ -1,0 +1,25 @@
+# Requirements Python pour le projet ML
+
+# Data Science & ML
+numpy>=1.26
+pandas>=2.1
+pyarrow<14,>=12.0
+scikit-learn>=1.4
+scipy>=1.11
+
+
+# MLFlow pour le tracking des expériences
+mlflow==2.7.1
+
+# FastAPI et serveur web
+fastapi==0.103.1
+uvicorn[standard]==0.23.2
+pydantic==2.3.0
+
+# Utilities
+python-multipart==0.0.6
+python-dotenv==1.0.0
+
+# Pour les tests (optionnel)
+pytest==7.4.2
+httpx==0.24.1
